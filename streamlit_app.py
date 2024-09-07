@@ -4,7 +4,7 @@ import os
 
 # OpenAI 클라이언트 초기화
 openai_api_key = st.secrets["openai"]["api_key"]
-client = OpenAI(api_key  = ${{ secrets.SECRET_NAME }})
+client = OpenAI(api_key  = openai_api_key)
 
 # Streamlit 앱 레이아웃
 st.title("AI 이미지 생성기")
