@@ -35,4 +35,3 @@ if st.button("이미지 생성"):
             st.error(f"이미지 생성 중 오류 발생: {e}")
     else:
         st.warning("이미지를 생성하려면 프롬프트를 입력하세요.")
-        
